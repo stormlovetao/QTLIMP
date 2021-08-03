@@ -28,7 +28,7 @@ The sample of summary statistics are generated from eQTL summary data of CD4+ T 
 ```bash
 cd ./src ; make; cd .. # compliling under src folder
 mkdir sample_output    # creat a new folder for output
-# Running xQTLImp
+# Running xQTLImp-dist
 ./src/xQTLImp-dist                                  \
 -m ./sample/sample_gene_annotation.txt         \
 -x ./sample/sample_eQTL_summary.txt            \

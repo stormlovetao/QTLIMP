@@ -1,6 +1,6 @@
 # xQTLImp-dist
 ## Introduction
-xQTLImp-dist is a variant model of xQTLImp. xQTLImp-dist considers the biological context of xQTLs and assigns larger weights to the unknown variants that are closer to a trait. The input data needed is same as the xQTLImp, and their usages are similar except we added new parameter --delta which is a hyper-parameter of activation function(see Methods in our manuscript).
+xQTLImp-dist is a variant model of xQTLImp. xQTLImp-dist considers the biological context of xQTLs and assigns larger weights to the unknown variants that are closer to a trait. The input data needed is same as the xQTLImp, and their usages are similar except we added new parameter --delta which is a hyper-parameter of activation function (see Methods in our manuscript) which transfers the distance to a weight range from 0 to 1.
 
 ### xQTLImp parameters：
 The parameters can be specified by short options (e.g. -h) or long options (e.g. --help), which have same effects. Please see the parameters and explanations as follows:
